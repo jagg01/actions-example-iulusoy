@@ -39,7 +39,7 @@ jobs:
       run: |
         cd src/package
         python -m pytest
-      - name: Run unittest
+    - name: Run unittest
       run: |
         cd src/package
         python -m unittest
