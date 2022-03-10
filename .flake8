@@ -1,4 +1,4 @@
 [flake8]
-ignore = E305, E302, E501, F401, E231, E117, E226
+ignore = E305, E302, E501, F401, E231, E117, E226, E303
 exclude = .git,__pycache__,doc
 max-line-length = 90
