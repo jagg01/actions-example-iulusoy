@@ -10,7 +10,6 @@ class test_area_triangle(unittest.TestCase):
         self.assertEqual(trA.area_tr(8,3),12)
         self.assertNotEqual(trA.area_tr(3,3),10)
 
-
     def test_values(self):
         """Make sure value errors are not negative"""
         self.assertRaises(ValueError,trA.area_tr,-5,-1)
